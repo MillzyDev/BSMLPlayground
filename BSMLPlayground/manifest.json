@@ -2,11 +2,16 @@
   "$schema": "https://raw.githubusercontent.com/bsmg/BSIPA-MetadataFileSchema/master/Schema.json",
   "id": "BSMLPlayground",
   "name": "BSMLPlayground",
-  "author": "",
-  "version": "0.0.1",
-  "description": "",
-  "gameVersion": "1.18.3",
+  "author": "Millzy",
+  "version": "0.1.0",
+  "description": "Simple Beat Saber mod used for speeding up UI dev.",
+  "gameVersion": "1.27.0",
   "dependsOn": {
-    "BSIPA": "^4.2.0"
+    "BSIPA": "^4.2.2",
+    "BeatSaberMarkupLanguage": "^1.6.3",
+    "SiraUtil": "^3.0.5"
+  },
+  "links": {
+    "project-source": "https://github.com/MillzyDev/BSMLPlayground"
   }
 }
