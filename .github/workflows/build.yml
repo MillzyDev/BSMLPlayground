@@ -23,7 +23,7 @@ jobs:
                   manifest: ${{github.workspace}}/BSMLPlayground/manifest.json
             - name: Build
               id: Build
-              run: dotnet build --configuration Release
+              run: dotnet build "${{github.workspace}}/BSMLPlayground/BSMLPlayground.sln" --configuration Release
             - name: GitStatus
               run: git status
             - name: Echo Filename
